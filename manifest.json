@@ -1,0 +1,12 @@
+{
+  "name": "bj",
+  "description": "Kabutan",
+  "version": "1.0",
+  "manifest_version": 1,
+  "content_scripts": [
+    {
+      "matches": ["https://kabutan.jp/stock/?code=*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
